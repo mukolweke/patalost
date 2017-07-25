@@ -1,0 +1,178 @@
+.btn-white {
+    color: #303641;
+    background-color: #ffffff;
+    border-color: #ffffff;
+    border-color: #ebebeb;
+}
+.btn-white:hover,
+.btn-white:focus,
+.btn-white:active,
+.btn-white.active,
+.open .dropdown-toggle.btn-white {
+    color: #303641;
+    background-color: #ebebeb;
+    border-color: #e0e0e0;
+}
+.btn-white:active,
+.btn-white.active,
+.open .dropdown-toggle.btn-white {
+    background-image: none;
+}
+.btn-white.disabled,
+.btn-white[disabled],
+fieldset[disabled] .btn-white,
+.btn-white.disabled:hover,
+.btn-white[disabled]:hover,
+fieldset[disabled] .btn-white:hover,
+.btn-white.disabled:focus,
+.btn-white[disabled]:focus,
+fieldset[disabled] .btn-white:focus,
+.btn-white.disabled:active,
+.btn-white[disabled]:active,
+fieldset[disabled] .btn-white:active,
+.btn-white.disabled.active,
+.btn-white[disabled].active,
+fieldset[disabled] .btn-white.active {
+    background-color: #ffffff;
+    border-color: #ffffff;
+}
+.btn-white .badge {
+    color: #ffffff;
+    background-color: #303641;
+}
+.btn-white > .caret {
+    border-top-color: #303641;
+    border-bottom-color: #303641 !important;
+}
+.btn-white.dropdown-toggle {
+    border-left-color: #ededed;
+}
+.btn-white.btn-icon {
+    position: relative;
+    padding-right: 39px;
+    border: none;
+}
+.btn-white.btn-icon i {
+    background-color: #ebebeb;
+    padding: 6px 6px;
+    font-size: 12px;
+    line-height: 1.42857143;
+    border-radius: 3px;
+    -webkit-border-radius: 0 3px 3px 0;
+    -webkit-background-clip: padding-box;
+    -moz-border-radius: 0 3px 3px 0;
+    -moz-background-clip: padding;
+    border-radius: 0 3px 3px 0;
+    background-clip: padding-box;
+}
+.btn-white.btn-icon.icon-left {
+    padding-right: 12px;
+    padding-left: 39px;
+}
+.btn-white.btn-icon.icon-left i {
+    float: left;
+    right: auto;
+    left: 0;
+    -webkit-border-radius: 3px 0 0 3px !important;
+    -webkit-background-clip: padding-box;
+    -moz-border-radius: 3px 0 0 3px !important;
+    -moz-background-clip: padding;
+    border-radius: 3px 0 0 3px !important;
+    background-clip: padding-box;
+}
+.btn-white.btn-icon.btn-lg {
+    padding-right: 55px;
+}
+.btn-white.btn-icon.btn-lg.icon-left {
+    padding-right: 16px;
+    padding-left: 55px;
+}
+.btn-white.btn-icon.btn-lg i {
+    padding: 10px 10px;
+    font-size: 15px;
+    line-height: 1.33;
+    border-radius: 3px;
+}
+.btn-white.btn-icon.btn-sm {
+    padding-right: 36px;
+}
+.btn-white.btn-icon.btn-sm.icon-left {
+    padding-right: 10px;
+    padding-left: 36px;
+}
+.btn-white.btn-icon.btn-sm i {
+    padding: 5px 6px;
+    font-size: 11px;
+    line-height: 1.5;
+    border-radius: 2px;
+}
+.btn-white.btn-icon.btn-xs {
+    padding-right: 32px;
+}
+.btn-white.btn-icon.btn-xs.icon-left {
+    padding-right: 10px;
+    padding-left: 32px;
+}
+.btn-white.btn-icon.btn-xs i {
+    padding: 2px 6px;
+    font-size: 10px;
+    line-height: 1.5;
+    border-radius: 2px;
+}
+.fileinput-exists .fileinput-new,
+.fileinput-new .fileinput-exists {
+  display: none;
+}
+.fileinput-inline .fileinput-controls {
+  display: inline;
+}
+.fileinput .uneditable-input {
+  white-space: normal;
+}
+.fileinput-new .input-group .btn-file {
+  border-radius: 0 3px 3px 0;
+}
+.fileinput-new .input-group .btn-file.btn-xs,
+.fileinput-new .input-group .btn-file.btn-sm {
+  border-radius: 0 2px 2px 0;
+}
+.fileinput-new .input-group .btn-file.btn-lg {
+  border-radius: 0 3px 3px 0;
+}
+.form-group.has-warning .fileinput .uneditable-input {
+  color: #574802;
+  border-color: #ffd78a;
+}
+.form-group.has-warning .fileinput .fileinput-preview {
+  color: #574802;
+}
+.form-group.has-warning .fileinput .thumbnail {
+  border-color: #ffd78a;
+}
+.form-group.has-error .fileinput .uneditable-input {
+  color: #ac1818;
+  border-color: #ffafbd;
+}
+.form-group.has-error .fileinput .fileinput-preview {
+  color: #ac1818;
+}
+.form-group.has-error .fileinput .thumbnail {
+  border-color: #ffafbd;
+}
+.form-group.has-success .fileinput .uneditable-input {
+  color: #045702;
+  border-color: #b4e8a8;
+}
+.form-group.has-success .fileinput .fileinput-preview {
+  color: #045702;
+}
+.form-group.has-success .fileinput .thumbnail {
+  border-color: #b4e8a8;
+}
+.input-group-addon:not(:first-child) {
+  border-left: 0;
+}
+.fileinput .uneditable-input,
+.fileinput-new .input-group .btn-file {
+  display: table-cell !important;
+}

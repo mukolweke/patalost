@@ -1,0 +1,138 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Aug 22, 2016, 5:43:49 PM
+    Author     : kuku
+*/
+body {
+    padding-top: 50px;
+    background-color: #fff;
+    margin: 0px;
+    font: 13px/20px normal Helvetica, Arial, sans-serif;
+    color: #4F5155;
+}
+
+.login_container{
+    text-align: center;
+}
+.login_content{
+    margin-top: 30px;
+    margin-left: 350px;
+}
+
+.panel_header{
+    margin-top: 50px;
+    background-color: transparent;
+}
+.input-group-addon{
+    width: 50px;
+}
+.messages{
+    width: 450px;
+}
+#admin_email{
+    width: 400px;
+    height: 50px;
+}
+#admin_password{
+    width: 400px;
+    height: 50px;
+}
+.btn-login{
+    width: 450px;
+    height: 50px;
+}
+.login-bottom-links{
+    margin-top: 50px;
+}
+.link{
+    color: #f9f9f9;
+    text-decoration: none;
+}
+.link:hover{
+    color: #f9f9f9;
+    text-decoration: none;
+}
+.logo{
+    background-color: transparent;
+}
+
+//dashboard content
+
+.sub-header {
+    padding-bottom: 10px;
+    border-bottom: 1px solid #eee;
+}
+.dash_content{
+    width:450px;
+}
+/*
+ * Top navigation
+ * Hide default border to remove 1px line.
+ */
+.navbar-fixed-top {
+    border: 0;
+}
+
+/*
+ * Sidebar
+ */
+
+/* Hide for mobile, show later */
+.sidebar {
+    display: none;
+}
+@media (min-width: 768px) {
+    .sidebar {
+        position: fixed;
+        top: 51px;
+        bottom: 0;
+        left: 0;
+        z-index: 1000;
+        display: block;
+        padding: 20px;
+        overflow-x: hidden;
+        overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
+        background-color: #f5f5f5;
+        border-right: 1px solid #eee;
+    }
+}
+
+/* Sidebar navigation */
+.nav-sidebar {
+    margin-right: -21px; /* 20px padding + 1px border */
+    margin-bottom: 20px;
+    margin-left: -20px;
+}
+.nav-sidebar > li > a {
+    padding-right: 20px;
+    padding-left: 20px;
+}
+.nav-sidebar > .active > a,
+.nav-sidebar > .active > a:hover,
+.nav-sidebar > .active > a:focus {
+    color: #fff;
+    background-color: #428bca;
+}
+
+
+/*
+ * Main content
+ */
+
+.main {
+    padding: 20px;
+}
+@media (min-width: 768px) {
+    .main {
+        padding-right: 40px;
+        padding-left: 40px;
+    }
+}
+.main .page-header {
+    margin-top: 0;
+}
+
